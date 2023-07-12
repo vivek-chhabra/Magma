@@ -1,0 +1,32 @@
+.Navbar {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    justify-content: space-between;
+    z-index: 1;
+    align-items: center;
+    padding-inline: 70px;
+}
+
+.Navbar img {
+    height: 40px;
+}
+
+.Navbar .right {
+    font-size: 120%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Navbar .demo, .Navbar .right i {
+    border-bottom: 2px solid rgba(255, 255, 255, 0);
+    padding-block: 5px;
+    padding-inline: 5px;
+}
+
+.Navbar .demo:hover, .Navbar .right i:hover {
+    border-bottom: 2px solid white;
+    cursor: default;
+}
